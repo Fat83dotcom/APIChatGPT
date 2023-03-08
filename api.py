@@ -1,8 +1,9 @@
 import openai
 from gtts import gTTS
 from playsound import playsound
+from confidencial import senha
 
-openai.api_key = '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'
+openai.api_key = senha
 
 audio = 'audio.mp3'
 language = 'pt-br'
