@@ -11,7 +11,7 @@ language = 'pt-br'
 completion = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
-    {"role": "user", "content": "De que é feita a terra?"},
+    {"role": "user", "content": "Me faça um texto sobre: 'o poder permeia a sociedade'"},
   ]
 )
 
